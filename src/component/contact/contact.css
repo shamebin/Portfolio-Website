@@ -1,0 +1,47 @@
+.contact{
+    background-color: white;
+    display: flex;
+}
+
+.contact .left, .contact .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .right h2{
+    font-size: 30px;
+}
+
+.contact .right form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact .right form input{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.contact .right form textarea{
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #212A3E;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
